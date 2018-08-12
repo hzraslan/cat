@@ -6,8 +6,8 @@ var app = express();
 app.get("/cars", function (request, response){
     response.render('cars');
 })
-app.get('/.well-known/acme-challenge/DUZW-PQw6_xt-kb7Q496P7QrQnijXXfMFbgi7hh-UKk', (req, res, next)=>{
-       res.send("DUZW-PQw6_xt-kb7Q496P7QrQnijXXfMFbgi7hh-UKk.5Aw91aFZj7I4yUBhIZ4xruwKHjw7CV7LV0-8L6ng2Cs");
+app.get('/.well-known/acme-challenge/TuMBkkkQQhTFJg2lfNs4iIOEZLXso4MzzsmyfLEqqyQ', (req, res, next)=>{
+       res.send("TuMBkkkQQhTFJg2lfNs4iIOEZLXso4MzzsmyfLEqqyQ.5Aw91aFZj7I4yUBhIZ4xruwKHjw7CV7LV0-8L6ng2Cs");
    });
 app.get("/micheal", function (request, response){
      var cats_array = {name: "Michael", age: "2", favorite_food: 'meatball', sleeping_spots: 'on the top of couch' };
