@@ -1,0 +1,97 @@
+.main-content{
+    width: 400px;
+    height: 400px;
+    background: palegreen;
+    margin-left: 400px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: fantasy;
+    padding-top: 100px;
+}
+.main-content a{
+    display: block;
+    text-decoration: none;
+}
+.dimscreen{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    background: rgb(165, 165, 191);
+    overflow: auto;
+}
+.pictures{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 100px;
+    border: 1px solid black;
+    box-shadow: 5px 10px rgb(139, 139, 194);
+}
+.nav{
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    padding-top: 10px;
+    position: fixed;
+    background: palegreen;
+    font-family: fantasy;
+    font-size: 30px;
+}
+.nav a{
+    margin-left: 40px;
+    text-decoration: none;
+}
+.picture1{
+    width: 800px;
+    height: 337px;
+    margin-left: 100px;
+    margin-top: 100px;
+    border: 1px solid black;
+    box-shadow: 5px 10px rgb(139, 139, 194);;
+}
+.picture2{
+    width: 800px;
+    height: 293px;
+    margin-left: 400px;
+    margin-top: 50px;
+    border: 1px solid black;
+    box-shadow: 5px 10px rgb(139, 139, 194);;
+}
+.picture3{
+    width: 800px;
+    height: 489px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: 1px solid black;
+    box-shadow: 5px 10px rgb(139, 139, 194);;
+}
+.picture4{
+    width: 800px;
+    height: 424px;
+    margin-left: 300px;
+    margin-top: 50px;
+    border: 1px solid black;
+    box-shadow: 5px 10px rgb(139, 139, 194);;
+}
+form{
+    margin-top: 300px;
+    margin-left: 500px;
+}
+button{
+    background: rgb(232, 228, 227);
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+    box-shadow: 5px 10px rgb(33, 33, 55);;
+}
+#test{
+    color: green;
+}
